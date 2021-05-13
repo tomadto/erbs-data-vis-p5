@@ -341,7 +341,7 @@ function draw() {
         }
       }
       );
-      console.log(apr19Wep[mode]);
+      //console.log(apr19Wep[mode]);
       sortedWTC.map((wID, k)=> {
         push();
         noFill();
@@ -525,7 +525,7 @@ function mousePressed() {
   } else {
     hoverID = -1;
   }
-  print(charactersToCompare);
+  //print(charactersToCompare);
   //console.log(oneHit);
   //if (scene !== -1){
   //  scene = -1;

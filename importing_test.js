@@ -172,7 +172,7 @@ function setup() {
   tierSel=createSelect();
   tierSel.position(100, 100);
   tierSel.option('All Players');
-  tierSel.option('Top Players Only');
+  tierSel.option('Top Players Only (for Apr 30-May 10)');
   tierSel.changed(dateTierChangeHandlerNoClear);
   dateSel.changed(dateTierChangeHandlerClear);
   

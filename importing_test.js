@@ -445,9 +445,11 @@ function draw() {
   textFont(Heebo);
   fill(50);
   textSize(15);
-  text("Click on the character faces to add to the comparison. Click \"Show Options\" to view different datasets.", 50, 70);
-  text("ER:BS is a free-to-play hybrid MOBA, Battle Royale, and Survival game.", 50, 90);
-  text("18 players compete to be the last survivor standing during a mysterious experiment on Lumia Island!", 50, 110);
+  text("Click on the character faces to add to the comparison. Click \"Show Options\" to view different datasets.", 50, 60);
+  text("ER:BS is a free-to-play hybrid MOBA, Battle Royale, and Survival game.", 50, 80);
+  text("18 players compete to be the last survivor standing during a mysterious experiment on Lumia Island!", 50, 100);
+  textSize(10);
+  text("made by tomadto", 50, 120)
 
   push();
   textSize(12);
@@ -514,6 +516,7 @@ function draw() {
   fill(0);
   textAlign(CENTER, CENTER);
   textFont(HeeboMedium);
+  textSize(14);
   text(showLegendsText, spacingX.value*3+300, 140-3);
   pop();
   let legendHit = collidePointRect(mouseX, mouseY, spacingX.value*3+300-120/2, 140-20/2, 120, 20);

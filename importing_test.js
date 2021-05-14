@@ -165,8 +165,9 @@ function setup() {
   
   dateSel=createSelect();
   dateSel.position(100, 100);
-  dateSel.option('Apr 15-Apr 18');
   dateSel.option('Apr 30-May 10');
+  dateSel.option('Apr 15-Apr 18');
+
   
   
   tierSel=createSelect();
@@ -216,7 +217,7 @@ function setup() {
 }
 
 
-let currentData = [apr19Chr, apr19Wep];
+let currentData = [apr30Chr, apr30Wep];
 let updateExtremes = false;
 
 function draw() {

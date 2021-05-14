@@ -1,0 +1,416 @@
+[
+  {
+    "Character": "Averages",
+    "Weapon": "",
+    "Win Rate": "0.202",
+    "Pick Rate": "0.022",
+    "Player Kill": "1.1",
+    "Average Rank": "3.4",
+    "MMR Efficiency": ""
+  },
+  {
+    "Character": "Adela",
+    "Weapon": "Rapier",
+    "Win Rate": "0.213",
+    "Pick Rate": "0.024",
+    "Player Kill": "1.3",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "0.8"
+  },
+  {
+    "Character": "Adriana",
+    "Weapon": "Throw",
+    "Win Rate": "0.175",
+    "Pick Rate": "0.035",
+    "Player Kill": "0.7",
+    "Average Rank": "3.4",
+    "MMR Efficiency": "-2.9"
+  },
+  {
+    "Character": "Alex",
+    "Weapon": "4 Types",
+    "Win Rate": "0.206",
+    "Pick Rate": "0.047",
+    "Player Kill": "1",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "1.3"
+  },
+  {
+    "Character": "Aya",
+    "Weapon": "Pistol",
+    "Win Rate": "0.199",
+    "Pick Rate": "0.018",
+    "Player Kill": "1.3",
+    "Average Rank": "3.4",
+    "MMR Efficiency": "0.6"
+  },
+  {
+    "Character": "Aya",
+    "Weapon": "Assault Rifle",
+    "Win Rate": "0.183",
+    "Pick Rate": "0.006",
+    "Player Kill": "0.9",
+    "Average Rank": "3.6",
+    "MMR Efficiency": "-4.9"
+  },
+  {
+    "Character": "Aya",
+    "Weapon": "Sniper",
+    "Win Rate": "0.163",
+    "Pick Rate": "0.005",
+    "Player Kill": "1.1",
+    "Average Rank": "3.7",
+    "MMR Efficiency": "-2"
+  },
+  {
+    "Character": "Barbara",
+    "Weapon": "Bat",
+    "Win Rate": "0.225",
+    "Pick Rate": "0.016",
+    "Player Kill": "1.2",
+    "Average Rank": "3.4",
+    "MMR Efficiency": "1.3"
+  },
+  {
+    "Character": "Bernice",
+    "Weapon": "Sniper",
+    "Win Rate": "0.173",
+    "Pick Rate": "0.02",
+    "Player Kill": "1.1",
+    "Average Rank": "3.5",
+    "MMR Efficiency": "-2.7"
+  },
+  {
+    "Character": "Cathy",
+    "Weapon": "Dagger",
+    "Win Rate": "0.225",
+    "Pick Rate": "0.026",
+    "Player Kill": "1",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "1.8"
+  },
+  {
+    "Character": "Chiara",
+    "Weapon": "Rapier",
+    "Win Rate": "0.231",
+    "Pick Rate": "0.018",
+    "Player Kill": "1",
+    "Average Rank": "3.2",
+    "MMR Efficiency": "2.5"
+  },
+  {
+    "Character": "Emma",
+    "Weapon": "Shuriken",
+    "Win Rate": "0.203",
+    "Pick Rate": "0.012",
+    "Player Kill": "0.9",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "-0.6"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon": "Rapier",
+    "Win Rate": "0.284",
+    "Pick Rate": "0.03",
+    "Player Kill": "1.9",
+    "Average Rank": "3.1",
+    "MMR Efficiency": "4.6"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon": "Spear",
+    "Win Rate": "0.156",
+    "Pick Rate": "0.003",
+    "Player Kill": "1.2",
+    "Average Rank": "3.4",
+    "MMR Efficiency": "-2"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon": "Two-Handed Sword",
+    "Win Rate": "0.241",
+    "Pick Rate": "0.005",
+    "Player Kill": "2",
+    "Average Rank": "3.1",
+    "MMR Efficiency": "-1.2"
+  },
+  {
+    "Character": "Hart",
+    "Weapon": "Guitar",
+    "Win Rate": "0.24",
+    "Pick Rate": "0.028",
+    "Player Kill": "1.3",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "1.4"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon": "Bow",
+    "Win Rate": "0.235",
+    "Pick Rate": "0.045",
+    "Player Kill": "0.9",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "0"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon": "Shuriken",
+    "Win Rate": "0.339",
+    "Pick Rate": "0.014",
+    "Player Kill": "1.2",
+    "Average Rank": "3",
+    "MMR Efficiency": "8.3"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon": "Tonfa",
+    "Win Rate": "0.169",
+    "Pick Rate": "0.023",
+    "Player Kill": "0.6",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "-0.9"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon": "Glove",
+    "Win Rate": "0.167",
+    "Pick Rate": "0.027",
+    "Player Kill": "0.8",
+    "Average Rank": "3.5",
+    "MMR Efficiency": "-4.2"
+  },
+  {
+    "Character": "Isol",
+    "Weapon": "Assault Rifle",
+    "Win Rate": "0.167",
+    "Pick Rate": "0.023",
+    "Player Kill": "1.1",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "-2.9"
+  },
+  {
+    "Character": "Isol",
+    "Weapon": "Pistol",
+    "Win Rate": "0.195",
+    "Pick Rate": "0.009",
+    "Player Kill": "0.9",
+    "Average Rank": "3.4",
+    "MMR Efficiency": "-1.5"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon": "Axe",
+    "Win Rate": "0.236",
+    "Pick Rate": "0.014",
+    "Player Kill": "1.4",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "5.8"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon": "Two-Handed Sword",
+    "Win Rate": "0",
+    "Pick Rate": "0",
+    "Player Kill": "1",
+    "Average Rank": "3.9",
+    "MMR Efficiency": "-3.1"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon": "Dual Sword",
+    "Win Rate": "0.204",
+    "Pick Rate": "0.085",
+    "Player Kill": "1.4",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "0.5"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon": "Dagger",
+    "Win Rate": "0.184",
+    "Pick Rate": "0.01",
+    "Player Kill": "1.2",
+    "Average Rank": "3.5",
+    "MMR Efficiency": "-1.8"
+  },
+  {
+    "Character": "Lenox",
+    "Weapon": "Whip",
+    "Win Rate": "0.206",
+    "Pick Rate": "0.046",
+    "Player Kill": "0.8",
+    "Average Rank": "3.4",
+    "MMR Efficiency": "0.3"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon": "Glove",
+    "Win Rate": "0.193",
+    "Pick Rate": "0.034",
+    "Player Kill": "1.1",
+    "Average Rank": "3.4",
+    "MMR Efficiency": "2.1"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon": "Nunchaku",
+    "Win Rate": "0.165",
+    "Pick Rate": "0.03",
+    "Player Kill": "1.1",
+    "Average Rank": "3.5",
+    "MMR Efficiency": "-2"
+  },
+  {
+    "Character": "Luke",
+    "Weapon": "Bat",
+    "Win Rate": "0.13",
+    "Pick Rate": "0.014",
+    "Player Kill": "1",
+    "Average Rank": "3.6",
+    "MMR Efficiency": "-5.9"
+  },
+  {
+    "Character": "Magnus",
+    "Weapon": "Bat",
+    "Win Rate": "0.167",
+    "Pick Rate": "0.003",
+    "Player Kill": "0.7",
+    "Average Rank": "3.6",
+    "MMR Efficiency": "-3.4"
+  },
+  {
+    "Character": "Magnus",
+    "Weapon": "Hammer",
+    "Win Rate": "0.194",
+    "Pick Rate": "0.022",
+    "Player Kill": "1",
+    "Average Rank": "3.5",
+    "MMR Efficiency": "-3.2"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon": "Bow",
+    "Win Rate": "0.218",
+    "Pick Rate": "0.03",
+    "Player Kill": "1.4",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "2.2"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon": "Crossbow",
+    "Win Rate": "0.322",
+    "Pick Rate": "0.005",
+    "Player Kill": "1.5",
+    "Average Rank": "3.1",
+    "MMR Efficiency": "6.1"
+  },
+  {
+    "Character": "Rozzi",
+    "Weapon": "Pistol",
+    "Win Rate": "0.179",
+    "Pick Rate": "0.038",
+    "Player Kill": "1.5",
+    "Average Rank": "3.5",
+    "MMR Efficiency": "-0.2"
+  },
+  {
+    "Character": "Shoichi",
+    "Weapon": "Dagger",
+    "Win Rate": "0.162",
+    "Pick Rate": "0.013",
+    "Player Kill": "1.3",
+    "Average Rank": "3.4",
+    "MMR Efficiency": "3.2"
+  },
+  {
+    "Character": "Silvia",
+    "Weapon": "Pistol",
+    "Win Rate": "0.216",
+    "Pick Rate": "0.029",
+    "Player Kill": "0.9",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "0.5"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon": "Shuriken",
+    "Win Rate": "0.203",
+    "Pick Rate": "0.02",
+    "Player Kill": "1.4",
+    "Average Rank": "3.5",
+    "MMR Efficiency": "-0.2"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon": "Throw",
+    "Win Rate": "0.251",
+    "Pick Rate": "0.028",
+    "Player Kill": "1.1",
+    "Average Rank": "3.3",
+    "MMR Efficiency": "6"
+  },
+  {
+    "Character": "Sua",
+    "Weapon": "Hammer",
+    "Win Rate": "0.163",
+    "Pick Rate": "0.014",
+    "Player Kill": "0.7",
+    "Average Rank": "3.5",
+    "MMR Efficiency": "-0.3"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon": "Spear",
+    "Win Rate": "0.169",
+    "Pick Rate": "0.014",
+    "Player Kill": "0.7",
+    "Average Rank": "3.5",
+    "MMR Efficiency": "-7.4"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon": "Dagger",
+    "Win Rate": "0.215",
+    "Pick Rate": "0.023",
+    "Player Kill": "1",
+    "Average Rank": "3.2",
+    "MMR Efficiency": "0.3"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon": "Two-Handed Sword",
+    "Win Rate": "0.18",
+    "Pick Rate": "0.04",
+    "Player Kill": "0.8",
+    "Average Rank": "3.5",
+    "MMR Efficiency": "-2"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon": "Dual Sword",
+    "Win Rate": "0.156",
+    "Pick Rate": "0.033",
+    "Player Kill": "1",
+    "Average Rank": "3.4",
+    "MMR Efficiency": "-4"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon": "Throw",
+    "Win Rate": "0.152",
+    "Pick Rate": "0.014",
+    "Player Kill": "1",
+    "Average Rank": "3.5",
+    "MMR Efficiency": "-0.9"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon": "Shuriken",
+    "Win Rate": "0.205",
+    "Pick Rate": "0.005",
+    "Player Kill": "1.6",
+    "Average Rank": "3.6",
+    "MMR Efficiency": "-3.8"
+  }
+]

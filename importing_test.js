@@ -34,7 +34,6 @@ let currentMode;
 let charactersToCompare = [];
 let compSpacing = 150;
 let useArc = false; //good thing i'm not using react :D
-
 //thumbnails
 let thumbJackie;
 let thumbAya;
@@ -67,11 +66,21 @@ let thumbSua;
 let chrStatsSort = [];
 let modeSel;
 let dateSel;
+let tierSel;
 let labelToggle;
 let apr19Chr = [];
 let apr19Wep = [];
+let apr30Chr = [];
+let apr30Wep = [];
+let apr30ChrTop = [];
+let apr30WepTop = [];
 
 function preload() {
+  HeeboBold = loadFont('assets/fonts/Heebo-Bold.ttf');
+  HeeboMedium = loadFont('assets/fonts/Heebo-Medium.ttf');
+  Heebo = loadFont('assets/fonts/Heebo-Regular.ttf');
+  
+  //there has to be a better way...
   apr19Chr[0] = loadJSON('assets/charactersApr26.json');
   apr19Chr[1] = loadJSON('assets/charactersApr26duos.json');
   apr19Chr[2] = loadJSON('assets/charactersApr26sqd.json');
@@ -79,6 +88,20 @@ function preload() {
   apr19Wep[1] = loadJSON('assets/wepApr26duos.json');
   apr19Wep[2] = loadJSON('assets/wepApr26squads.json');
   //chrStatsSort = loadJSON('assets/charactersApr26.json');
+  
+  apr30Chr[0] = loadJSON('assets/chrMay10solos.json');
+  apr30Chr[1] = loadJSON('assets/chrMay10duos.json');
+  apr30Chr[2] = loadJSON('assets/chrMay10squads.json');
+  apr30Wep[0] = loadJSON('assets/wepMay10solos.json');
+  apr30Wep[1] = loadJSON('assets/wepMay10duos.json');
+  apr30Wep[2] = loadJSON('assets/wepMay10squads.json');
+
+  apr30ChrTop[0] = loadJSON('assets/chrMay10solos_top.json');
+  apr30ChrTop[1] = loadJSON('assets/chrMay10duos_top.json');
+  apr30ChrTop[2] = loadJSON('assets/chrMay10squads_top.json');
+  apr30WepTop[0] = loadJSON('assets/wepMay10solos_top.json');
+  apr30WepTop[1] = loadJSON('assets/wepMay10duos_top.json');
+  apr30WepTop[2] = loadJSON('assets/wepMay10squads_top.json');
 
 
   //load thumbs
@@ -129,6 +152,7 @@ let showLegends = true;
 let showLegendsText = "Show Options";
 
 function setup() {
+  textFont(Heebo);
   //frameRate(5);
   //apr19Chr = [chrStats, chrStatsDuos, chrStatsSquads];
   //apr19Wep = [wepStats, chrStatsDuos, chrStatsSquads];
@@ -139,21 +163,42 @@ function setup() {
   modeSel.option('Squads');
   modeSel.changed(modeChangeHandler);
   
+  dateSel=createSelect();
+  dateSel.position(100, 100);
+  dateSel.option('Apr 15-Apr 18');
+  dateSel.option('Apr 30-May 10');
+  
+  
+  tierSel=createSelect();
+  tierSel.position(100, 100);
+  tierSel.option('All Players');
+  tierSel.option('Top Players Only');
+  tierSel.changed(dateTierChangeHandlerNoClear);
+  dateSel.changed(dateTierChangeHandlerClear);
+  
   labelToggle = createCheckbox('',true);
   labelToggle.changed(labelToggleHandler);
   
   arcToggle = createCheckbox('',false);
   arcToggle.changed(arcHandler);
-  //dateSel = createSelect();
-  //dateSel.option('Apr 19');
-  //modeSel.changed(dateChangeHandler);
-  //chrStatsSort=Object.values(chrStats);
-  //chrStats=Object.values(chrStats);
+  //again there has to be a better way.
   for (let i = 0; i<apr19Chr.length; i++) {
     let inp = [Object.values(apr19Chr[i]), Object.values(apr19Wep[i])];
     let out = setupChrWepStats(inp[0], inp[1]);
     apr19Chr[i] = out[0];
     apr19Wep[i] = out[1];
+  }
+  for (let i = 0; i<apr19Chr.length; i++) {
+    let inp = [Object.values(apr30ChrTop[i]), Object.values(apr30WepTop[i])];
+    let out = setupChrWepStats(inp[0], inp[1]);
+    apr30ChrTop[i] = out[0];
+    apr30WepTop[i] = out[1];
+  }
+  for (let i = 0; i<apr19Chr.length; i++) {
+    let inp = [Object.values(apr30Chr[i]), Object.values(apr30Wep[i])];
+    let out = setupChrWepStats(inp[0], inp[1]);
+    apr30Chr[i] = out[0];
+    apr30Wep[i] = out[1];
   }
   cnv = createCanvas(windowWidth, windowHeight);
   cnv.style('display', 'block');
@@ -171,13 +216,14 @@ function setup() {
 }
 
 
-
-
+let currentData = [apr19Chr, apr19Wep];
+let updateExtremes = false;
 
 function draw() {
-  if (mode !== currentMode) {
-    [mins, maxs] = findExtremesChr(apr19Chr[mode], false);
+  if (mode !== currentMode || updateExtremes === true) {
+    [mins, maxs] = findExtremesChr(currentData[0][mode], false);
     currentMode = mode;
+    updateExtremes = false;
     //charactersToCompare = [];
   }
   background(bgColor);
@@ -196,7 +242,7 @@ function draw() {
     stroke(0);
     strokeWeight(1);
     noFill();
-    apr19Chr[mode].map((chr, i) => {
+    currentData[0][mode].map((chr, i) => {
       noFill();
       rectMode(CENTER);
       stroke(0);
@@ -217,23 +263,25 @@ function draw() {
       rectMode(CORNER);
       push();
       fill(0);
-      textSize(14);
+      textSize(16);
       textAlign(LEFT, TOP);
-      text(chr.Character, chr.x+52, chr.y+scrollOffset-40);
+      textFont(HeeboMedium);
+      text(chr.Character, chr.x+51, chr.y+scrollOffset-45);
 
       textSize(12);
-      text(chr.Weapon === "Two-Handed Sword"?"2H Sword":chr.Weapon, chr.x+51, chr.y+scrollOffset-23);
+      textFont(Heebo);
+      text(chr.Weapon === "Two-Handed Sword"?"2H Sword":chr.Weapon, chr.x+51, chr.y+scrollOffset-27);
       pop();
       //
       push();
       rectMode(CORNER);
       fill(bgColor);
       stroke(0);
-      createDial(chr.x+70, chr.y+scrollOffset+10, apr19Chr[mode][mins[0]]["Pick Rate"], apr19Chr[mode][maxs[0]]["Pick Rate"], chr["Pick Rate"], 40, "P"); //pick
-      createDial(chr.x+112, chr.y+scrollOffset+10, apr19Chr[mode][mins[1]]["Win Rate"], apr19Chr[mode][maxs[1]]["Win Rate"], chr["Win Rate"], 40, "W"); //win
+      createDial(chr.x+70, chr.y+scrollOffset+10, currentData[0][mode][mins[0]]["Pick Rate"], currentData[0][mode][maxs[0]]["Pick Rate"], chr["Pick Rate"], 40, "P"); //pick
+      createDial(chr.x+112, chr.y+scrollOffset+10, currentData[0][mode][mins[1]]["Win Rate"], currentData[0][mode][maxs[1]]["Win Rate"], chr["Win Rate"], 40, "W"); //win
       pop();
-      apr19Chr[mode][chr._ind].hit = collidePointRect(mouseX, mouseY, apr19Chr[mode][i].x-80/2, apr19Chr[mode][i].y-80/2+scrollOffset, 80, 80);
-      if (apr19Chr[mode][chr._ind].hit) {
+      currentData[0][mode][chr._ind].hit = collidePointRect(mouseX, mouseY, currentData[0][mode][i].x-80/2, currentData[0][mode][i].y-80/2+scrollOffset, 80, 80);
+      if (currentData[0][mode][chr._ind].hit) {
         hoverID = chr._ind;
         oneHit = true;
       }
@@ -242,7 +290,7 @@ function draw() {
     );
     let compDet = [];
     for (const e of charactersToCompare) {
-      compDet.push(apr19Chr[mode][e]);
+      compDet.push(currentData[0][mode][e]);
     }
     [minsC, maxsC] = findExtremesChr(compDet, true);
     push();
@@ -256,6 +304,7 @@ function draw() {
       noStroke();
       textSize(24);
       textAlign(CENTER, CENTER);
+      textFont(HeeboMedium);
       text("Add characters to the comparison area by clicking on their picture!", adjScreenWidth.value+150, 300-50+scrollOffsetC, 500, windowHeight-400);
       pop();
       scrollOffsetC = 0;
@@ -268,25 +317,27 @@ function draw() {
       //image(chrStats[id].img, loc[0]+compSpacing*i, loc[1]-scrollOffsetC);
       textAlign(LEFT, TOP);
       textSize(18);
-      text(apr19Chr[mode][id].Character, loc[0]+compSpacing*i, loc[1]+90);
+      textFont(HeeboMedium);
+      text(currentData[0][mode][id].Character, loc[0]+compSpacing*i, loc[1]+90);
       textSize(12);
-      text(apr19Chr[mode][id].Weapon === "Two-Handed Sword"?"2H Sword":apr19Chr[mode][id].Weapon, loc[0]+compSpacing*i, loc[1]+110);
+      textFont(Heebo);
+      text(currentData[0][mode][id].Weapon === "Two-Handed Sword"?"2H Sword":currentData[0][mode][id].Weapon, loc[0]+compSpacing*i, loc[1]+110);
 
       pop();
       noFill();
       stroke(0);
       strokeWeight(2);
-      let reference = createBarColumn(loc[0]+compSpacing*i+32, loc[1]+205, 0, apr19Chr[mode][maxsC[0]]["Pick Rate"], apr19Chr[mode][id]["Pick Rate"], 600, 16, false);
-      createDial(loc[0]+compSpacing*i+20, loc[1]+150, apr19Chr[mode][mins[0]]["Pick Rate"], apr19Chr[mode][maxs[0]]["Pick Rate"], apr19Chr[mode][id]["Pick Rate"], 40, "P"); //pick
-      createDial(loc[0]+compSpacing*i+61, loc[1]+150, apr19Chr[mode][mins[1]]["Win Rate"], apr19Chr[mode][maxs[1]]["Win Rate"], apr19Chr[mode][id]["Win Rate"], 40, "W"); //win
+      let reference = createBarColumn(loc[0]+compSpacing*i+32, loc[1]+205, 0, currentData[0][mode][maxsC[0]]["Pick Rate"], currentData[0][mode][id]["Pick Rate"], 600, 16, false);
+      createDial(loc[0]+compSpacing*i+20, loc[1]+150, currentData[0][mode][mins[0]]["Pick Rate"], currentData[0][mode][maxs[0]]["Pick Rate"], currentData[0][mode][id]["Pick Rate"], 40, "P"); //pick
+      createDial(loc[0]+compSpacing*i+61, loc[1]+150, currentData[0][mode][mins[1]]["Win Rate"], currentData[0][mode][maxs[1]]["Win Rate"], currentData[0][mode][id]["Win Rate"], 40, "W"); //win
       fill(0);
       noStroke();
-      let referenceWR = createBarColumn(loc[0]+compSpacing*i+32, loc[1]+205, 0, apr19Chr[mode][id]["Pick Rate"], apr19Chr[mode][id]["Win Rate"]*apr19Chr[mode][id]["Pick Rate"], reference[3], 16, false);
+      let referenceWR = createBarColumn(loc[0]+compSpacing*i+32, loc[1]+205, 0, currentData[0][mode][id]["Pick Rate"], currentData[0][mode][id]["Win Rate"]*currentData[0][mode][id]["Pick Rate"], reference[3], 16, false);
       push();
       stroke(0);
       strokeWeight(2);
       noFill();
-      reference = createBarColumn(loc[0]+compSpacing*i+32, loc[1]+205, 0, apr19Chr[mode][maxsC[0]]["Pick Rate"], apr19Chr[mode][id]["Pick Rate"], 600, 16, false);
+      reference = createBarColumn(loc[0]+compSpacing*i+32, loc[1]+205, 0, currentData[0][mode][maxsC[0]]["Pick Rate"], currentData[0][mode][id]["Pick Rate"], 600, 16, false);
       pop();
       if (showLabels) {
         push();
@@ -310,15 +361,15 @@ function draw() {
       let weaponsToCompare = [];
       let wepCompDet = [];
       let minsCW, maxsCW;
-      apr19Wep[mode].map((wep, j) => {
-        if (wep.Character === apr19Chr[mode][id].Character && (wep["Weapon Type"] === apr19Chr[mode][id].Weapon || apr19Chr[mode][id].Character === "Alex")) {
+      currentData[1][mode].map((wep, j) => {
+        if (wep.Character === currentData[0][mode][id].Character && (wep["Weapon Type"] === currentData[0][mode][id].Weapon || currentData[0][mode][id].Character === "Alex")) {
           weaponsToCompare.push(wep._ind);
         }
       }
       );
 
       for (const e of weaponsToCompare) {
-        wepCompDet.push(apr19Wep[mode][e]);
+        wepCompDet.push(currentData[1][mode][e]);
       }
       //print(weaponsToCompare);
       [minsCW, maxsCW] = findExtremesChr(wepCompDet, true);
@@ -331,10 +382,10 @@ function draw() {
       
       text("Weapon Stats for ", wepLoc[0], wepLoc[1]);
       
-      text((apr19Chr[mode][id].Weapon === "Two-Handed Sword"?"2H Sword":apr19Chr[mode][id].Weapon), wepLoc[0], wepLoc[1]+15); 
+      text((currentData[0][mode][id].Weapon === "Two-Handed Sword"?"2H Sword":currentData[0][mode][id].Weapon), wepLoc[0], wepLoc[1]+15); 
       let sortedWTC = weaponsToCompare;
       sortedWTC.sort((first, second)=> {
-        if (apr19Wep[mode][first]["Pick Rate"]>apr19Wep[mode][second]["Pick Rate"]) {
+        if (currentData[1][mode][first]["Pick Rate"]>currentData[1][mode][second]["Pick Rate"]) {
           return -1;
         } else {
           return 1;
@@ -347,19 +398,19 @@ function draw() {
         noFill();
         stroke(0);
         strokeWeight(2);
-        let referenceW = createBarColumn(wepLoc[0], wepLoc[1]+30*k+50, 0, apr19Wep[mode][maxsCW[0]]["Pick Rate"], apr19Wep[mode][wID]["Pick Rate"], 150, 8, true);
+        let referenceW = createBarColumn(wepLoc[0], wepLoc[1]+30*k+50, 0, currentData[1][mode][maxsCW[0]]["Pick Rate"], currentData[1][mode][wID]["Pick Rate"], 150, 8, true);
         pop();
         push();
         fill(0);
         noStroke();
         rectMode(CORNER);
-        createBarColumn(wepLoc[0], wepLoc[1]+30*k+50, 0, apr19Wep[mode][wID]["Pick Rate"], apr19Wep[mode][wID]["Win Rate"]*apr19Wep[mode][wID]["Pick Rate"], referenceW[3], 8, true);
+        createBarColumn(wepLoc[0], wepLoc[1]+30*k+50, 0, currentData[1][mode][wID]["Pick Rate"], currentData[1][mode][wID]["Win Rate"]*currentData[1][mode][wID]["Pick Rate"], referenceW[3], 8, true);
         pop();
 
-        text((apr19Wep[mode][wID].Weapon.length>19)?apr19Wep[mode][wID].Weapon.slice(0, 17)+"...":apr19Wep[mode][wID].Weapon, wepLoc[0], wepLoc[1]+30*k+40);
+        text((currentData[1][mode][wID].Weapon.length>19)?currentData[1][mode][wID].Weapon.slice(0, 17)+"...":currentData[1][mode][wID].Weapon, wepLoc[0], wepLoc[1]+30*k+40-3);
       }
       );
-      image(apr19Chr[mode][id].img, loc[0]+compSpacing*i, loc[1]-scrollOffsetC);
+      image(currentData[0][mode][id].img, loc[0]+compSpacing*i, loc[1]-scrollOffsetC);
       stroke(0);
       strokeWeight(2);
       noFill();
@@ -388,10 +439,12 @@ function draw() {
   //text("Pick Rate", 130, 100);
   //text("No. Wins out of Picks", 130, 50);
   textSize(30);
-  text("Eternal Return: Black Survival Character Performance stats", 50, 35);
+  textFont(HeeboBold);
+  text("Eternal Return: Black Survival Character Performance", 50, 25);
+  textFont(Heebo);
   fill(50);
   textSize(15);
-  text("Click on the character faces to add to the comparison. Match stats from the week of Apr 19.", 50, 70);
+  text("Click on the character faces to add to the comparison. Click \"Show Options\" to view different datasets.", 50, 70);
   text("ER:BS is a free-to-play hybrid MOBA, Battle Royale, and Survival game.", 50, 90);
   text("18 players compete to be the last survivor standing during a mysterious experiment on Lumia Island!", 50, 110);
 
@@ -402,11 +455,13 @@ function draw() {
   stroke(0);
   if (showLegends) {
     modeSel.style('display', 'none');
+    dateSel.style('display', 'none');
+    tierSel.style('display', 'none');
     labelToggle.style('display', 'none');
     arcToggle.style('display', 'none');
     //createBarColumn(chr.x, chr.y, 0, 100, 50, 100, 16, true);
-    let exampleP = createDial(140+800, 50, apr19Chr[mode][mins[0]]["Pick Rate"], apr19Chr[mode][maxs[0]]["Pick Rate"], apr19Chr[mode][0]["Pick Rate"], 80, "Pick%"); //pick
-    let exampleW = createDial(292+800, 50, apr19Chr[mode][mins[1]]["Win Rate"], apr19Chr[mode][maxs[1]]["Win Rate"], apr19Chr[mode][0]["Win Rate"], 80, "Win%"); //win
+    let exampleP = createDial(140+800, 50, currentData[0][mode][mins[0]]["Pick Rate"], currentData[0][mode][maxs[0]]["Pick Rate"], currentData[0][mode][0]["Pick Rate"], 80, "Pick%"); //pick
+    let exampleW = createDial(292+800, 50, currentData[0][mode][mins[1]]["Win Rate"], currentData[0][mode][maxs[1]]["Win Rate"], currentData[0][mode][0]["Win Rate"], 80, "Win%"); //win
     strokeWeight(2);
     let barL = createBarColumn(400+800, 50, 0, 100, 100, 200, 16, true);
     fill(50);
@@ -432,11 +487,15 @@ function draw() {
     fill(0);
     noStroke();
     textSize(18);
-    text("Game Mode: ", 70+800, 30);
-    text("Show Labels: ", 70+800, 60);
-    text("Arcs instead of Arrows: ", 70+800, 90);
+    text("Use Data From: ", 70+800, 30-4);
+    text("Show Labels: ", 70+800, 60-4);
+    text("Arcs instead of Arrows: ", 70+800, 90-4);
     modeSel.style('display', 'initial');
     modeSel.position(270+800, 30);
+    dateSel.style('display', 'initial');
+    dateSel.position(270+800+80, 30);
+    tierSel.style('display', 'initial');
+    tierSel.position(270+800+200, 30);
     labelToggle.style('display', 'initial');
     labelToggle.position(270+800, 60);
     arcToggle.style('display', 'initial');
@@ -448,26 +507,30 @@ function draw() {
   noFill();
   stroke(0);
   strokeWeight(2);
-  rect(adjScreenWidth.value+300, 140, 120, 20);
+  rect(spacingX.value*3+300, 140, 120, 20);
   push();
   noStroke();
   fill(0);
   textAlign(CENTER, CENTER);
-  text(showLegendsText, adjScreenWidth.value+300, 140);
+  textFont(HeeboMedium);
+  text(showLegendsText, spacingX.value*3+300, 140-3);
   pop();
-  let legendHit = collidePointRect(mouseX, mouseY, adjScreenWidth.value+300-120/2, 140-20/2, 120, 20);
+  let legendHit = collidePointRect(mouseX, mouseY, spacingX.value*3+300-120/2, 140-20/2, 120, 20);
   if (legendHit) {
     hoverID = 10003;
     oneHit = true;
   }
-  rect(maxXPicker, 140, 120, 20);
+  rect(spacingX.value*3-100, 140, 120, 20);
   fill(0);
   noStroke();
   textSize(14);
   textAlign(LEFT, CENTER);
-  text(expButText, maxXPicker-40, 140);
+  push();
+  textFont(HeeboMedium);
+  text(expButText, spacingX.value*3-140, 140-3);
+  pop();
   //button.position(maxXPicker, 140);
-  let sideBarHit = collidePointRect(mouseX, mouseY, maxXPicker-120/2, 140-20/2, 120, 20);
+  let sideBarHit = collidePointRect(mouseX, mouseY, spacingX.value*3-100-120/2, 140-20/2, 120, 20);
   if (sideBarHit) {
     hoverID = 10001;
     oneHit = true;
@@ -475,15 +538,16 @@ function draw() {
 
   noFill();
   stroke(0);
-  rect(adjScreenWidth.value+100, 140, 120, 20);
+  rect(spacingX.value*3+100, 140, 120, 20);
   fill(0);
   noStroke();
   textSize(14);
   push();
   textAlign(CENTER, CENTER);
-  text("Reset", adjScreenWidth.value+100, 140);
+  textFont(HeeboMedium);
+  text("Reset", spacingX.value*3+100, 140-3);
   pop();
-  let resetHit = collidePointRect(mouseX, mouseY, adjScreenWidth.value+100-120/2, 140-20/2, 120, 20);
+  let resetHit = collidePointRect(mouseX, mouseY, spacingX.value*3+100-120/2, 140-20/2, 120, 20);
   if (resetHit) {
     hoverID = 10002;
     oneHit = true;
@@ -502,7 +566,7 @@ function windowResized() {
 function mousePressed() {
   if (oneHit) {
     if (hoverID===10001) {
-      if (adjScreenWidth.value === spacingX.value*5) {
+      if (adjScreenWidth.target === spacingX.value*5) {
         adjScreenWidth.setTarget(spacingX.value*1);
         expButText = "Expand >>";
         scrollOffset = 0;
@@ -557,19 +621,19 @@ function scrollHandler(event) {
 }
 
 const updateChrStatsLoc = ()=> {
-  apr19Chr[mode].map((chr, i) => {
-    apr19Chr[mode][i]._ind = i;
-    apr19Chr[mode][i].x = 100+floor((i*spacingX.value+8)%adjScreenWidth.value/200)*200;
-    apr19Chr[mode][i].y = 200+100*floor((i*spacingY.value+16)/adjScreenWidth.value/2);
-    apr19Chr[mode][i].wPick = 10*sqrt(chr["Pick Rate"]*scaling.value);
-    apr19Chr[mode][i].hPick = 10*sqrt(chr["Pick Rate"]*scaling.value);
+  currentData[0][mode].map((chr, i) => {
+    currentData[0][mode][i]._ind = i;
+    currentData[0][mode][i].x = 100+floor((i*spacingX.value+8)%adjScreenWidth.value/200)*200;
+    currentData[0][mode][i].y = 200+100*floor((i*spacingY.value+16)/adjScreenWidth.value/2);
+    currentData[0][mode][i].wPick = 10*sqrt(chr["Pick Rate"]*scaling.value);
+    currentData[0][mode][i].hPick = 10*sqrt(chr["Pick Rate"]*scaling.value);
     maxXPicker = 100+(adjScreenWidth.value-spacingX.value);
   }
   );
-  apr19Wep[mode].map((wep, i) => {
-    apr19Wep[mode][i]._ind = i;
-    apr19Wep[mode][i].wPick = 5*sqrt(wep["Pick Rate"]*scaling.value);
-    apr19Wep[mode][i].hPick = 5*sqrt(wep["Pick Rate"]*scaling.value);
+  currentData[1][mode].map((wep, i) => {
+    currentData[1][mode][i]._ind = i;
+    currentData[1][mode][i].wPick = 5*sqrt(wep["Pick Rate"]*scaling.value);
+    currentData[1][mode][i].hPick = 5*sqrt(wep["Pick Rate"]*scaling.value);
   }
   );
 }
@@ -675,12 +739,46 @@ const findExtremesChr = (arr, pTimesW) => {
 
 const modeChangeHandler = () => {
   let newMode = modeSel.value();
+  let newDate = dateSel.value();
+  let newTier = tierSel.value();
+  updateExtremes = true;
   if (newMode === "Solos") {
     mode = 0;
   } else if (newMode === "Duos") {
     mode = 1;
   } else {
     mode = 2;
+  }
+}
+
+const dateTierChangeHandlerClear = () => {
+  let newDate = dateSel.value();
+  let newTier = tierSel.value();
+
+  charactersToCompare = [];
+
+  updateExtremes = true;
+  if (newDate === "Apr 15-Apr 18"){
+    currentData[0] = apr19Chr;
+    currentData[1] = apr19Wep;
+    charactersToCompare = [];
+  }else{
+    currentData[0] = (newTier==="All Players")?apr30Chr:apr30ChrTop;
+    currentData[1] = (newTier==="All Players")?apr30Wep:apr30WepTop;
+  }
+}
+
+const dateTierChangeHandlerNoClear = () => {
+  let newDate = dateSel.value();
+  let newTier = tierSel.value();
+  updateExtremes = true;
+  if (newDate === "Apr 15-Apr 18"){
+    currentData[0] = apr19Chr;
+    currentData[1] = apr19Wep;
+    charactersToCompare = [];
+  }else{
+    currentData[0] = (newTier==="All Players")?apr30Chr:apr30ChrTop;
+    currentData[1] = (newTier==="All Players")?apr30Wep:apr30WepTop;
   }
 }
 

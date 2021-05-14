@@ -1,0 +1,1983 @@
+[
+  {
+    "Character": "Base Win Rate",
+    "Weapon Type": "",
+    "Weapon": "",
+    "Win Rate": "0.202",
+    "Pick Rate": ""
+  },
+  {
+    "Character": "Adriana",
+    "Weapon Type": "Throw",
+    "Weapon": "Smoke Bomb",
+    "Win Rate": "0.226",
+    "Pick Rate": "0.140"
+  },
+  {
+    "Character": "Adriana",
+    "Weapon Type": "Throw",
+    "Weapon": "Incendiary Bomb",
+    "Win Rate": "0.163",
+    "Pick Rate": "0.728"
+  },
+  {
+    "Character": "Adriana",
+    "Weapon Type": "Throw",
+    "Weapon": "David's Sling",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.007"
+  },
+  {
+    "Character": "Adriana",
+    "Weapon Type": "Throw",
+    "Weapon": "Grenade of Antioch",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.055"
+  },
+  {
+    "Character": "Adriana",
+    "Weapon Type": "Throw",
+    "Weapon": "Ruthenium Marble",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.025"
+  },
+  {
+    "Character": "Adela",
+    "Weapon Type": "Rapier",
+    "Weapon": "Durendal Mk2",
+    "Win Rate": "0.058",
+    "Pick Rate": "0.126"
+  },
+  {
+    "Character": "Adela",
+    "Weapon Type": "Rapier",
+    "Weapon": "Mistilteinn",
+    "Win Rate": "0.286",
+    "Pick Rate": "0.693"
+  },
+  {
+    "Character": "Adela",
+    "Weapon Type": "Rapier",
+    "Weapon": "Volticletto",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.053"
+  },
+  {
+    "Character": "Adela",
+    "Weapon Type": "Rapier",
+    "Weapon": "Meteor Claymore",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.002"
+  },
+  {
+    "Character": "Adela",
+    "Weapon Type": "Rapier",
+    "Weapon": "Joyeuse",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.005"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Thuan Thien",
+    "Win Rate": "0.158",
+    "Pick Rate": "0.142"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Arondight",
+    "Win Rate": "0.087",
+    "Pick Rate": "0.057"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Excalibur",
+    "Win Rate": "0.103",
+    "Pick Rate": "0.072"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Plasma Sword",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.010"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Laevateinn",
+    "Win Rate": "0.400",
+    "Pick Rate": "0.056"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Monohoshizao",
+    "Win Rate": "0.315",
+    "Pick Rate": "0.091"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Hovud",
+    "Win Rate": "0.178",
+    "Pick Rate": "0.056"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Dainsleif",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.017"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Pistol",
+    "Weapon": "Devil's Marksman",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.001"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Pistol",
+    "Weapon": "Elegance",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.009"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Pistol",
+    "Weapon": "Electron Blaster",
+    "Win Rate": "0.246",
+    "Pick Rate": "0.076"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Pistol",
+    "Weapon": "Magnum-Boa",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.012"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Pistol",
+    "Weapon": "Kelte",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.005"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Cards of Tyranny",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.004"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Mystic Jade Charm",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.001"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Fuhma Shuriken",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Frost Venom Dart",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.005"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Azure Dagger",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Flechette",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Wind and Fire Wheels",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.001"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Death Rune",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Sudarsana",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Petal Torrent",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.005"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Tonfa",
+    "Weapon": "Tactical Tonfa",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.001"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Tonfa",
+    "Weapon": "Mai Sok",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.011"
+  },
+  {
+    "Character": "Alex",
+    "Weapon Type": "Tonfa",
+    "Weapon": "Plasma Tonfa",
+    "Win Rate": "0.207",
+    "Pick Rate": "0.320"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Assault Rifle",
+    "Weapon": "AK-12",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Assault Rifle",
+    "Weapon": "XCR",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.028"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Assault Rifle",
+    "Weapon": "Type 95",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Assault Rifle",
+    "Weapon": "Agni",
+    "Win Rate": "0.192",
+    "Pick Rate": "0.908"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Pistol",
+    "Weapon": "Devil's Marksman",
+    "Win Rate": "0.204",
+    "Pick Rate": "0.330"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Pistol",
+    "Weapon": "Elegance",
+    "Win Rate": "0.139",
+    "Pick Rate": "0.253"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Pistol",
+    "Weapon": "Electron Blaster",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.003"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Pistol",
+    "Weapon": "Magnum-Boa",
+    "Win Rate": "0.219",
+    "Pick Rate": "0.308"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Pistol",
+    "Weapon": "Kelte",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.032"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Sniper",
+    "Weapon": "Tac-50",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.239"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Sniper",
+    "Weapon": "Intervention",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.163"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Sniper",
+    "Weapon": "NTW-20",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.130"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Sniper",
+    "Weapon": "Polaris",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.293"
+  },
+  {
+    "Character": "Aya",
+    "Weapon Type": "Sniper",
+    "Weapon": "The Deadly Ray",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.141"
+  },
+  {
+    "Character": "Barbara",
+    "Weapon Type": "Bat",
+    "Weapon": "Statue of Soteria",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Barbara",
+    "Weapon Type": "Bat",
+    "Weapon": "Mallet",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.004"
+  },
+  {
+    "Character": "Barbara",
+    "Weapon Type": "Bat",
+    "Weapon": "Spy Umbrella",
+    "Win Rate": "0.185",
+    "Pick Rate": "0.793"
+  },
+  {
+    "Character": "Barbara",
+    "Weapon Type": "Bat",
+    "Weapon": "Magic Stick",
+    "Win Rate": "0.537",
+    "Pick Rate": "0.146"
+  },
+  {
+    "Character": "Barbara",
+    "Weapon Type": "Bat",
+    "Weapon": "Monkey King Bar",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Bernice",
+    "Weapon Type": "Sniper",
+    "Weapon": "Tac-50",
+    "Win Rate": "0.172",
+    "Pick Rate": "0.604"
+  },
+  {
+    "Character": "Bernice",
+    "Weapon Type": "Sniper",
+    "Weapon": "Intervention",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.003"
+  },
+  {
+    "Character": "Bernice",
+    "Weapon Type": "Sniper",
+    "Weapon": "NTW-20",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Bernice",
+    "Weapon Type": "Sniper",
+    "Weapon": "Polaris",
+    "Win Rate": "0.193",
+    "Pick Rate": "0.354"
+  },
+  {
+    "Character": "Bernice",
+    "Weapon Type": "Sniper",
+    "Weapon": "The Deadly Ray",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Cathy",
+    "Weapon Type": "Dagger",
+    "Weapon": "Carnwennan",
+    "Win Rate": "0.228",
+    "Pick Rate": "0.205"
+  },
+  {
+    "Character": "Cathy",
+    "Weapon Type": "Dagger",
+    "Weapon": "Mount Slicer",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.009"
+  },
+  {
+    "Character": "Cathy",
+    "Weapon Type": "Dagger",
+    "Weapon": "Vibroblade",
+    "Win Rate": "0.169",
+    "Pick Rate": "0.397"
+  },
+  {
+    "Character": "Cathy",
+    "Weapon Type": "Dagger",
+    "Weapon": "Damascus Steel Thorn",
+    "Win Rate": "0.293",
+    "Pick Rate": "0.275"
+  },
+  {
+    "Character": "Cathy",
+    "Weapon Type": "Dagger",
+    "Weapon": "Fragarach",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.060"
+  },
+  {
+    "Character": "Chiara",
+    "Weapon Type": "Rapier",
+    "Weapon": "Durendal Mk2",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.013"
+  },
+  {
+    "Character": "Chiara",
+    "Weapon Type": "Rapier",
+    "Weapon": "Mistilteinn",
+    "Win Rate": "0.277",
+    "Pick Rate": "0.765"
+  },
+  {
+    "Character": "Chiara",
+    "Weapon Type": "Rapier",
+    "Weapon": "Volticletto",
+    "Win Rate": "0.093",
+    "Pick Rate": "0.140"
+  },
+  {
+    "Character": "Chiara",
+    "Weapon Type": "Rapier",
+    "Weapon": "Meteor Claymore",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Chiara",
+    "Weapon Type": "Rapier",
+    "Weapon": "Joyeuse",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.007"
+  },
+  {
+    "Character": "Emma",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Cards of Tyranny",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.054"
+  },
+  {
+    "Character": "Emma",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Mystic Jade Charm",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.025"
+  },
+  {
+    "Character": "Emma",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Fuhma Shuriken",
+    "Win Rate": "0.241",
+    "Pick Rate": "0.678"
+  },
+  {
+    "Character": "Emma",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Frost Venom Dart",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Emma",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Azure Dagger",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Emma",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Flechette",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.005"
+  },
+  {
+    "Character": "Emma",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Wind and Fire Wheels",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.158"
+  },
+  {
+    "Character": "Emma",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Death Rune",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.015"
+  },
+  {
+    "Character": "Emma",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Sudarsana",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Emma",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Petal Torrent",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Rapier",
+    "Weapon": "Durendal Mk2",
+    "Win Rate": "0.184",
+    "Pick Rate": "0.523"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Rapier",
+    "Weapon": "Mistilteinn",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Rapier",
+    "Weapon": "Volticletto",
+    "Win Rate": "0.225",
+    "Pick Rate": "0.078"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Rapier",
+    "Weapon": "Meteor Claymore",
+    "Win Rate": "0.543",
+    "Pick Rate": "0.137"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Rapier",
+    "Weapon": "Joyeuse",
+    "Win Rate": "0.416",
+    "Pick Rate": "0.221"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Spear",
+    "Weapon": "Gentian Silver Gun",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.200"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Spear",
+    "Weapon": "Eighteen Foot Spear",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.333"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Spear",
+    "Weapon": "Cosmic Bident",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.022"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Spear",
+    "Weapon": "Lance of Poseidon",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Spear",
+    "Weapon": "Blazing Lance",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.067"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Spear",
+    "Weapon": "Fangtian Huaji",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Spear",
+    "Weapon": "Dragon Guandao",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.156"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Spear",
+    "Weapon": "Spear of Longinus",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.178"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Thuan Thien",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.379"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Arondight",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Excalibur",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Plasma Sword",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.046"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Laevateinn",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.080"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Monohoshizao",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.379"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Hovud",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.011"
+  },
+  {
+    "Character": "Fiora",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Dainsleif",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.103"
+  },
+  {
+    "Character": "Hart",
+    "Weapon Type": "Guitar",
+    "Weapon": "Bohemian",
+    "Win Rate": "0.205",
+    "Pick Rate": "0.250"
+  },
+  {
+    "Character": "Hart",
+    "Weapon Type": "Guitar",
+    "Weapon": "Stairway to Heaven",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.008"
+  },
+  {
+    "Character": "Hart",
+    "Weapon Type": "Guitar",
+    "Weapon": "Purple Haze",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.018"
+  },
+  {
+    "Character": "Hart",
+    "Weapon Type": "Guitar",
+    "Weapon": "Satisfaction",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.041"
+  },
+  {
+    "Character": "Hart",
+    "Weapon Type": "Guitar",
+    "Weapon": "Wonderful Tonight",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.070"
+  },
+  {
+    "Character": "Hart",
+    "Weapon Type": "Guitar",
+    "Weapon": "The Wall",
+    "Win Rate": "0.191",
+    "Pick Rate": "0.268"
+  },
+  {
+    "Character": "Hart",
+    "Weapon Type": "Guitar",
+    "Weapon": "Teen Spirit",
+    "Win Rate": "0.233",
+    "Pick Rate": "0.326"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Bow",
+    "Weapon": "Ancient Bolt",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.005"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Bow",
+    "Weapon": "Golden-Ratio Bow",
+    "Win Rate": "0.200",
+    "Pick Rate": "0.090"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Bow",
+    "Weapon": "Twinbow",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.005"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Bow",
+    "Weapon": "Elemental Bow",
+    "Win Rate": "0.211",
+    "Pick Rate": "0.719"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Bow",
+    "Weapon": "Argyrotoxus",
+    "Win Rate": "0.658",
+    "Pick Rate": "0.098"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Bow",
+    "Weapon": "Failnaught",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Cards of Tyranny",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.040"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Mystic Jade Charm",
+    "Win Rate": "0.370",
+    "Pick Rate": "0.762"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Fuhma Shuriken",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.012"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Frost Venom Dart",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Azure Dagger",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.016"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Flechette",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Wind and Fire Wheels",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.052"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Death Rune",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.020"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Sudarsana",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Hyejin",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Petal Torrent",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.040"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon Type": "Tonfa",
+    "Weapon": "Tactical Tonfa",
+    "Win Rate": "0.160",
+    "Pick Rate": "0.128"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon Type": "Tonfa",
+    "Weapon": "Mai Sok",
+    "Win Rate": "0.193",
+    "Pick Rate": "0.212"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon Type": "Tonfa",
+    "Weapon": "Plasma Tonfa",
+    "Win Rate": "0.167",
+    "Pick Rate": "0.642"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon Type": "Glove",
+    "Weapon": "One Inch Punch",
+    "Win Rate": "0.113",
+    "Pick Rate": "0.327"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon Type": "Glove",
+    "Weapon": "Divine Fist",
+    "Win Rate": "0.138",
+    "Pick Rate": "0.126"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon Type": "Glove",
+    "Weapon": "Bloodwing Knuckles",
+    "Win Rate": "0.193",
+    "Pick Rate": "0.190"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon Type": "Glove",
+    "Weapon": "Frost Petal Hand",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.030"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon Type": "Glove",
+    "Weapon": "Buddha's Palm",
+    "Win Rate": "0.235",
+    "Pick Rate": "0.110"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon Type": "Glove",
+    "Weapon": "Brasil Gauntlet",
+    "Win Rate": "0.204",
+    "Pick Rate": "0.117"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon Type": "Glove",
+    "Weapon": "White Claw Punch",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.013"
+  },
+  {
+    "Character": "Hyunwoo",
+    "Weapon Type": "Glove",
+    "Weapon": "Imperial Silk Gloves",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.043"
+  },
+  {
+    "Character": "Isol",
+    "Weapon Type": "Assault Rifle",
+    "Weapon": "AK-12",
+    "Win Rate": "0.215",
+    "Pick Rate": "0.346"
+  },
+  {
+    "Character": "Isol",
+    "Weapon Type": "Assault Rifle",
+    "Weapon": "XCR",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.085"
+  },
+  {
+    "Character": "Isol",
+    "Weapon Type": "Assault Rifle",
+    "Weapon": "Type 95",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.008"
+  },
+  {
+    "Character": "Isol",
+    "Weapon Type": "Assault Rifle",
+    "Weapon": "Agni",
+    "Win Rate": "0.142",
+    "Pick Rate": "0.523"
+  },
+  {
+    "Character": "Isol",
+    "Weapon Type": "Pistol",
+    "Weapon": "Devil's Marksman",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.107"
+  },
+  {
+    "Character": "Isol",
+    "Weapon Type": "Pistol",
+    "Weapon": "Elegance",
+    "Win Rate": "0.150",
+    "Pick Rate": "0.268"
+  },
+  {
+    "Character": "Isol",
+    "Weapon Type": "Pistol",
+    "Weapon": "Electron Blaster",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.074"
+  },
+  {
+    "Character": "Isol",
+    "Weapon Type": "Pistol",
+    "Weapon": "Magnum-Boa",
+    "Win Rate": "0.221",
+    "Pick Rate": "0.517"
+  },
+  {
+    "Character": "Isol",
+    "Weapon Type": "Pistol",
+    "Weapon": "Kelte",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Axe",
+    "Weapon": "Beam Axe",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.103"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Axe",
+    "Weapon": "Santa Muerte",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.043"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Axe",
+    "Weapon": "Scythe",
+    "Win Rate": "0.254",
+    "Pick Rate": "0.811"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Axe",
+    "Weapon": "Parashu",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.013"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Axe",
+    "Weapon": "Harpe",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.009"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Thuan Thien",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Arondight",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Excalibur",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Plasma Sword",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.625"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Laevateinn",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Monohoshizao",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Hovud",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Dainsleif",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Dual Sword",
+    "Weapon": "Divine Dual Swords",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.009"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Dual Sword",
+    "Weapon": "Starsteel Twin Swords",
+    "Win Rate": "0.297",
+    "Pick Rate": "0.069"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Dual Sword",
+    "Weapon": "Dioscuri",
+    "Win Rate": "0.075",
+    "Pick Rate": "0.111"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Dual Sword",
+    "Weapon": "Lloigor & Zahr",
+    "Win Rate": "0.216",
+    "Pick Rate": "0.800"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Dagger",
+    "Weapon": "Carnwennan",
+    "Win Rate": "0.222",
+    "Pick Rate": "0.302"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Dagger",
+    "Weapon": "Mount Slicer",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.017"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Dagger",
+    "Weapon": "Vibroblade",
+    "Win Rate": "0.156",
+    "Pick Rate": "0.430"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Dagger",
+    "Weapon": "Damascus Steel Thorn",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.039"
+  },
+  {
+    "Character": "Jackie",
+    "Weapon Type": "Dagger",
+    "Weapon": "Fragarach",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.078"
+  },
+  {
+    "Character": "Lenox",
+    "Weapon Type": "Whip",
+    "Weapon": "Thunder Whip",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.014"
+  },
+  {
+    "Character": "Lenox",
+    "Weapon Type": "Whip",
+    "Weapon": "Gleipnir",
+    "Win Rate": "0.200",
+    "Pick Rate": "0.914"
+  },
+  {
+    "Character": "Lenox",
+    "Weapon Type": "Whip",
+    "Weapon": "Plasma Whip",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.003"
+  },
+  {
+    "Character": "Lenox",
+    "Weapon Type": "Whip",
+    "Weapon": "Bloody Nine Tails",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.025"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon Type": "Glove",
+    "Weapon": "One Inch Punch",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.031"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon Type": "Glove",
+    "Weapon": "Divine Fist",
+    "Win Rate": "0.176",
+    "Pick Rate": "0.173"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon Type": "Glove",
+    "Weapon": "Bloodwing Knuckles",
+    "Win Rate": "0.162",
+    "Pick Rate": "0.283"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon Type": "Glove",
+    "Weapon": "Frost Petal Hand",
+    "Win Rate": "0.213",
+    "Pick Rate": "0.278"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon Type": "Glove",
+    "Weapon": "Buddha's Palm",
+    "Win Rate": "0.212",
+    "Pick Rate": "0.088"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon Type": "Glove",
+    "Weapon": "Brasil Gauntlet",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.014"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon Type": "Glove",
+    "Weapon": "White Claw Punch",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.024"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon Type": "Glove",
+    "Weapon": "Imperial Silk Gloves",
+    "Win Rate": "0.366",
+    "Pick Rate": "0.069"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon Type": "Nunchaku",
+    "Weapon": "The Smiting Dragon",
+    "Win Rate": "0.187",
+    "Pick Rate": "0.443"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon Type": "Nunchaku",
+    "Weapon": "Vibro Nunchaku",
+    "Win Rate": "0.152",
+    "Pick Rate": "0.467"
+  },
+  {
+    "Character": "Li Dailin",
+    "Weapon Type": "Nunchaku",
+    "Weapon": "Cerberus",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.067"
+  },
+  {
+    "Character": "Luke",
+    "Weapon Type": "Bat",
+    "Weapon": "Statue of Soteria",
+    "Win Rate": "0.081",
+    "Pick Rate": "0.361"
+  },
+  {
+    "Character": "Luke",
+    "Weapon Type": "Bat",
+    "Weapon": "Mallet",
+    "Win Rate": "0.087",
+    "Pick Rate": "0.433"
+  },
+  {
+    "Character": "Luke",
+    "Weapon Type": "Bat",
+    "Weapon": "Spy Umbrella",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.017"
+  },
+  {
+    "Character": "Luke",
+    "Weapon Type": "Bat",
+    "Weapon": "Magic Stick",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Luke",
+    "Weapon Type": "Bat",
+    "Weapon": "Monkey King Bar",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.151"
+  },
+  {
+    "Character": "Magnus",
+    "Weapon Type": "Bat",
+    "Weapon": "Statue of Soteria",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.183"
+  },
+  {
+    "Character": "Magnus",
+    "Weapon Type": "Bat",
+    "Weapon": "Mallet",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.233"
+  },
+  {
+    "Character": "Magnus",
+    "Weapon Type": "Bat",
+    "Weapon": "Spy Umbrella",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.367"
+  },
+  {
+    "Character": "Magnus",
+    "Weapon Type": "Bat",
+    "Weapon": "Magic Stick",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.067"
+  },
+  {
+    "Character": "Magnus",
+    "Weapon Type": "Bat",
+    "Weapon": "Monkey King Bar",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.033"
+  },
+  {
+    "Character": "Magnus",
+    "Weapon Type": "Hammer",
+    "Weapon": "Fang Mace",
+    "Win Rate": "0.217",
+    "Pick Rate": "0.710"
+  },
+  {
+    "Character": "Magnus",
+    "Weapon Type": "Hammer",
+    "Weapon": "Hammer of Dagda",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.037"
+  },
+  {
+    "Character": "Magnus",
+    "Weapon Type": "Hammer",
+    "Weapon": "Hammer of Thor",
+    "Win Rate": "0.037",
+    "Pick Rate": "0.144"
+  },
+  {
+    "Character": "Magnus",
+    "Weapon Type": "Hammer",
+    "Weapon": "Peacebringer",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.008"
+  },
+  {
+    "Character": "Magnus",
+    "Weapon Type": "Hammer",
+    "Weapon": "Evening Star",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.066"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon Type": "Bow",
+    "Weapon": "Ancient Bolt",
+    "Win Rate": "0.174",
+    "Pick Rate": "0.179"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon Type": "Bow",
+    "Weapon": "Golden-Ratio Bow",
+    "Win Rate": "0.119",
+    "Pick Rate": "0.261"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon Type": "Bow",
+    "Weapon": "Twinbow",
+    "Win Rate": "0.207",
+    "Pick Rate": "0.376"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon Type": "Bow",
+    "Weapon": "Elemental Bow",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon Type": "Bow",
+    "Weapon": "Argyrotoxus",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.070"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon Type": "Bow",
+    "Weapon": "Failnaught",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.062"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon Type": "Crossbow",
+    "Weapon": "The Legend of The General",
+    "Win Rate": "0.273",
+    "Pick Rate": "0.632"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon Type": "Crossbow",
+    "Weapon": "Ballista",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.080"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon Type": "Crossbow",
+    "Weapon": "Sniper Crossbow",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.069"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon Type": "Crossbow",
+    "Weapon": "The Golden Ghost",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.023"
+  },
+  {
+    "Character": "Nadine",
+    "Weapon Type": "Crossbow",
+    "Weapon": "Sharanga",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.161"
+  },
+  {
+    "Character": "Rozzi",
+    "Weapon Type": "Pistol",
+    "Weapon": "Devil's Marksman",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Rozzi",
+    "Weapon Type": "Pistol",
+    "Weapon": "Elegance",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.002"
+  },
+  {
+    "Character": "Rozzi",
+    "Weapon Type": "Pistol",
+    "Weapon": "Electron Blaster",
+    "Win Rate": "0.185",
+    "Pick Rate": "0.811"
+  },
+  {
+    "Character": "Rozzi",
+    "Weapon Type": "Pistol",
+    "Weapon": "Magnum-Boa",
+    "Win Rate": "0.110",
+    "Pick Rate": "0.155"
+  },
+  {
+    "Character": "Rozzi",
+    "Weapon Type": "Pistol",
+    "Weapon": "Kelte",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.014"
+  },
+  {
+    "Character": "Shoichi",
+    "Weapon Type": "Dagger",
+    "Weapon": "Carnwennan",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Shoichi",
+    "Weapon Type": "Dagger",
+    "Weapon": "Mount Slicer",
+    "Win Rate": "0.170",
+    "Pick Rate": "0.926"
+  },
+  {
+    "Character": "Shoichi",
+    "Weapon Type": "Dagger",
+    "Weapon": "Vibroblade",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.005"
+  },
+  {
+    "Character": "Shoichi",
+    "Weapon Type": "Dagger",
+    "Weapon": "Damascus Steel Thorn",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Shoichi",
+    "Weapon Type": "Dagger",
+    "Weapon": "Fragarach",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.005"
+  },
+  {
+    "Character": "Silvia",
+    "Weapon Type": "Pistol",
+    "Weapon": "Devil's Marksman",
+    "Win Rate": "0.255",
+    "Pick Rate": "0.109"
+  },
+  {
+    "Character": "Silvia",
+    "Weapon Type": "Pistol",
+    "Weapon": "Elegance",
+    "Win Rate": "0.207",
+    "Pick Rate": "0.230"
+  },
+  {
+    "Character": "Silvia",
+    "Weapon Type": "Pistol",
+    "Weapon": "Electron Blaster",
+    "Win Rate": "0.205",
+    "Pick Rate": "0.339"
+  },
+  {
+    "Character": "Silvia",
+    "Weapon Type": "Pistol",
+    "Weapon": "Magnum-Boa",
+    "Win Rate": "0.182",
+    "Pick Rate": "0.240"
+  },
+  {
+    "Character": "Silvia",
+    "Weapon Type": "Pistol",
+    "Weapon": "Kelte",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.048"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Cards of Tyranny",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.006"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Mystic Jade Charm",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.109"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Fuhma Shuriken",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.109"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Frost Venom Dart",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.014"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Azure Dagger",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.011"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Flechette",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.003"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Wind and Fire Wheels",
+    "Win Rate": "0.218",
+    "Pick Rate": "0.605"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Death Rune",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.011"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Sudarsana",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.003"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Petal Torrent",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.083"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Throw",
+    "Weapon": "Smoke Bomb",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Throw",
+    "Weapon": "Incendiary Bomb",
+    "Win Rate": "0.267",
+    "Pick Rate": "0.242"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Throw",
+    "Weapon": "David's Sling",
+    "Win Rate": "0.241",
+    "Pick Rate": "0.182"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Throw",
+    "Weapon": "Grenade of Antioch",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.027"
+  },
+  {
+    "Character": "Sissela",
+    "Weapon Type": "Throw",
+    "Weapon": "Ruthenium Marble",
+    "Win Rate": "0.300",
+    "Pick Rate": "0.453"
+  },
+  {
+    "Character": "Sua",
+    "Weapon Type": "Hammer",
+    "Weapon": "Fang Mace",
+    "Win Rate": "0.185",
+    "Pick Rate": "0.506"
+  },
+  {
+    "Character": "Sua",
+    "Weapon Type": "Hammer",
+    "Weapon": "Hammer of Dagda",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.049"
+  },
+  {
+    "Character": "Sua",
+    "Weapon Type": "Hammer",
+    "Weapon": "Hammer of Thor",
+    "Win Rate": "0.141",
+    "Pick Rate": "0.318"
+  },
+  {
+    "Character": "Sua",
+    "Weapon Type": "Hammer",
+    "Weapon": "Peacebringer",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.016"
+  },
+  {
+    "Character": "Sua",
+    "Weapon Type": "Hammer",
+    "Weapon": "Evening Star",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.073"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Spear",
+    "Weapon": "Gentian Silver Gun",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.070"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Spear",
+    "Weapon": "Eighteen Foot Spear",
+    "Win Rate": "0.083",
+    "Pick Rate": "0.346"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Spear",
+    "Weapon": "Cosmic Bident",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Spear",
+    "Weapon": "Lance of Poseidon",
+    "Win Rate": "0.253",
+    "Pick Rate": "0.374"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Spear",
+    "Weapon": "Blazing Lance",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Spear",
+    "Weapon": "Fangtian Huaji",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.111"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Spear",
+    "Weapon": "Dragon Guandao",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.012"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Spear",
+    "Weapon": "Spear of Longinus",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Dagger",
+    "Weapon": "Carnwennan",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Dagger",
+    "Weapon": "Mount Slicer",
+    "Win Rate": "0.240",
+    "Pick Rate": "0.851"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Dagger",
+    "Weapon": "Vibroblade",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.005"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Dagger",
+    "Weapon": "Damascus Steel Thorn",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.056"
+  },
+  {
+    "Character": "Xiukai",
+    "Weapon Type": "Dagger",
+    "Weapon": "Fragarach",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Thuan Thien",
+    "Win Rate": "0.146",
+    "Pick Rate": "0.239"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Arondight",
+    "Win Rate": "0.149",
+    "Pick Rate": "0.352"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Excalibur",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.039"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Plasma Sword",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.047"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Laevateinn",
+    "Win Rate": "0.357",
+    "Pick Rate": "0.164"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Monohoshizao",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.044"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Hovud",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.055"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon Type": "Two-Handed Sword",
+    "Weapon": "Dainsleif",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.012"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon Type": "Dual Sword",
+    "Weapon": "Divine Dual Swords",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.011"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon Type": "Dual Sword",
+    "Weapon": "Starsteel Twin Swords",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.016"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon Type": "Dual Sword",
+    "Weapon": "Dioscuri",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.013"
+  },
+  {
+    "Character": "Yuki",
+    "Weapon Type": "Dual Sword",
+    "Weapon": "Lloigor & Zahr",
+    "Win Rate": "0.158",
+    "Pick Rate": "0.941"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Throw",
+    "Weapon": "Smoke Bomb",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Throw",
+    "Weapon": "Incendiary Bomb",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.004"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Throw",
+    "Weapon": "David's Sling",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Throw",
+    "Weapon": "Grenade of Antioch",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Throw",
+    "Weapon": "Ruthenium Marble",
+    "Win Rate": "0.164",
+    "Pick Rate": "0.905"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Cards of Tyranny",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Mystic Jade Charm",
+    "Win Rate": "0.200",
+    "Pick Rate": "0.739"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Fuhma Shuriken",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Frost Venom Dart",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Azure Dagger",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.045"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Flechette",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.000"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Wind and Fire Wheels",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.023"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Death Rune",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.102"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Sudarsana",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.011"
+  },
+  {
+    "Character": "Zahir",
+    "Weapon Type": "Shuriken",
+    "Weapon": "Petal Torrent",
+    "Win Rate": "insufficient data",
+    "Pick Rate": "0.034"
+  }
+]
